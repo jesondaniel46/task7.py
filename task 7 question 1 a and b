@@ -1,0 +1,24 @@
+  QUESTION A
+
+import datetime
+
+# Get the current timestamp as a string
+timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S')
+
+# Create a new text file with the timestamp as the filename and write the timestamp to it
+filename = f'{timestamp}.txt'
+with open(filename, 'w') as file:
+    file.write(f'File created at: {timestamp}')
+
+
+QUESTION B
+
+import datetime
+
+# Get the current timestamp as a string
+timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S')
+
+# Create a new text file with the timestamp as the filename and write the timestamp to it
+filename = f'{timestamp}.txt'
+with open(filename, 'w') as file:
+    file.write(f'File created at: {timestamp}')
